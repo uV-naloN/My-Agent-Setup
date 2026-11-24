@@ -13,8 +13,8 @@ Read everything the user gave you and extract it into a short analysis. Show thi
 
 **Never invent business rules.** Keep three kinds of statement visibly separate:
 - **Stated**: the requirement says it.
-- **Assumed**: a reasonable default you chose, marked *(assumption)* so the PO can confirm or reject it.
-- **Unknown**: goes into Open Questions.
+- **Assumed**: a default you would suggest, marked *(assumption)*. It is only a proposal: it must be confirmed with the customer in Step 1c before any ticket is written.
+- **Unknown**: becomes a confirmation question in Step 1c.
 
 ### Never ask the customer technical questions
 The person answering Open Questions is the customer / PO. They decide **what** the product does, not **how** it is built. Only ask them about things they can see, choose, or care about: behavior, wording, defaults, priorities, cost/budget, risk they accept, what happens to the user on failure.
@@ -23,4 +23,6 @@ Never ask them about: models, providers, libraries, APIs, timeouts in seconds, r
 
 If a technical choice has a visible effect (e.g. "replies with search may be ~10 s slower"), ask about the **effect** in plain language, not the technical setting behind it. When in doubt, ask yourself: "Could a non-technical customer answer this without asking a developer?" If not, it's a dev decision.
 
-If the requirement is too thin to write even one meaningful story (e.g. "add payments"), ask 2–4 focused questions first instead of producing a ticket full of guesses.
+Never rewrite the customer's requirement or swap their suggested approach for your own. Record it as given; if it doesn't fit the app, raise it in Step 1c with alternatives and let the customer decide.
+
+If the requirement is too thin to write even one meaningful story (e.g. "add payments"), start Step 1c with 2–4 focused questions instead of guessing.

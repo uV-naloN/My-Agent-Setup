@@ -92,4 +92,4 @@ If Step 1b checked the code, name the real files, functions and endpoints it fou
 - **Out of Scope**: always fill it. It prevents scope creep and answers "what about X?" before anyone asks.
 - **Dependencies**: other stories, teams, APIs, data migration, design assets.
 - **Priority / story points**: suggestions with reasons; the team has the final say. If the team's own estimate comes out above 5, apply the same split rule.
-- **Open Questions**: every Unknown from Step 1. Each should be a closed, answerable question ("Is the minimum inclusive?"), not a vague one ("What about minimums?"). Business questions only; technical unknowns go in Developer Notes as dev decisions (see "Never ask the customer technical questions").
+- **Open Questions**: after the requirement is locked (Step 1c), business questions should be "None — confirmed with customer". Only items the user forced you to leave unconfirmed go here. Each should be a closed, answerable question ("Is the minimum inclusive?"), not a vague one ("What about minimums?"). Business questions only; technical unknowns go in Developer Notes as dev decisions (see "Never ask the customer technical questions").

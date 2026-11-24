@@ -7,7 +7,8 @@ Silently check every story against this list and fix any problems before showing
 - [ ] The role is specific, and the value is a real benefit
 - [ ] Every AC is Given/When/Then, numbered, observable, and free of vague words
 - [ ] Negative, permission, and security ACs are present where relevant
-- [ ] No invented rules; every assumption is marked *(assumption)*
+- [ ] No invented rules and no unconfirmed assumptions; every AC traces to a locked item (R-number)
+- [ ] The customer's requirement was not changed, narrowed, or extended; any suggested approach that didn't fit the app was resolved with the customer
 - [ ] Developer notes are hints, not a technical design
 - [ ] Out of Scope and Open Questions are filled
 - [ ] No Open Question is technical (models, APIs, timeouts, counts, formats); those are dev decisions in Developer Notes
