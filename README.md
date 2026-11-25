@@ -7,7 +7,7 @@ My global Claude Code setup (`~/.claude`): settings and custom skills.
 | Path | What it is |
 |---|---|
 | `settings.json` | Global settings: model, effort level, no commit/PR attribution, SessionStart hook (`gh-axi`) |
-| `skills/feature-explainer/` | Explains an existing feature for a new developer; writes `docs/features/explained/<slug>-explained.md` |
+| `skills/feature-explainer/` | Guides a developer step by step through an existing feature (request DTO -> flow -> response DTO), one idea per turn with a check question, adapting to their answers |
 | `skills/feature-implementation-planner/` | Plan → scaffold → verify workflow for new features (US/AC, schema, DTOs, OWASP review, TDD test tables) |
 
 Not tracked (see `.gitignore`): login credentials, chat history, sessions, caches, and skills synced from claude.ai.
